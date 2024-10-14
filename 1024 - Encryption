@@ -1,3 +1,4 @@
+#include<bits/stdc++.h>
 #include<iostream>
 #include<string>
 #include<algorithm>
@@ -26,6 +27,5 @@ int main() {
         string encryptedLine = encrypt(line);
         cout << encryptedLine << endl;
     }
-
     return 0;
 }
