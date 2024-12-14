@@ -8,6 +8,7 @@ string encrypt(string s) {
     for (int i = 0; i < len; i++) {
         if (isalpha(s[i])) {
             s[i] = s[i] + 3;
+
         }
     }
     reverse(s.begin(), s.end());
