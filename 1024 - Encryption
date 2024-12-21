@@ -5,7 +5,7 @@
 using namespace std;
 string encrypt(string s) {
     int len = s.length();
-    for (int i = 0; i < len; i++) {
+    for(int i=0;i<len;i++){
         if (isalpha(s[i])) {
             s[i] = s[i] + 3;
         }
